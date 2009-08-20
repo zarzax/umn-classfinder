@@ -1,0 +1,62 @@
+/* MAIN */
+#main h3 { font-size: 13px; color: #333; font-weight: normal; word-spacing: -0.1em; font-variant: small-caps;}
+#main a:link,
+#main a:visited { color: #2971a7; text-decoration: none; }
+#main a:hover { text-decoration: underline; }
+#main a.more { text-align:left; background: url(http://images.apple.com/support/home/images/morearrow.png) 100% 0.4em no-repeat; padding-right: 9px; *display:inline-block; }
+#main .sidebar { font-size: 11px; color: #666; }
+#main .sidebar p,
+#main .sidebar ul,
+#main .sidebar h4 { font-size: 11px; line-height: 14px; }
+#main .sidebar p,
+#main .sidebar ul { margin-bottom: 8px; }
+
+#main .divider { border-top:1px solid #e0e0e0; margin:0; padding:0; }
+
+/* CONTENT */
+#container { *margin-top: -20px;}
+#content { padding: 0 0 0; }
+
+/* BOXES */
+#main .box { background: url(http://images.apple.com/support/home/images/box_580bg.png) 0 100% no-repeat; overflow: hidden;}
+#main .sidebar .box { background: url(box_300bg_black.png) 0 100% no-repeat; }
+#main .stretch .box { background: url(http://images.apple.com/support/home/images/boxw_980bg.png) 0 100% no-repeat; overflow: hidden; }
+#main .box h2 { height: 21px; overflow: hidden; position: relative; margin-bottom: 0; padding: 4px 10px 0 10px; color:white; font-weight:normal; font-size:12px; }
+#main .box h2 a { display: block; position: absolute; height: 25px; width: 100%; background: url(http://images.apple.com/support/home/images/box_linkarrow.png) 95% 50% no-repeat; }
+#main .padder { padding: 0 15px; }
+
+/* DRAWERS */
+#main ul.drawers { margin: 0 !important; }
+#main .slider .drawer-handle { color: #333; font-size: 14px; background: #939393 url(slider_handlebg_maroon-gold.png) 0 0 no-repeat; padding: 7px 0px; width: 100%; cursor: default;}
+#main .slider .drawer-handle-span-off { color: #333; font-size: 14px; padding:0; padding-right:20px; cursor: default; float:right; font-weight: bold; word-spacing: -0.1em; font-variant: small-caps;}
+#main .slider .drawer-handle-span-off-open { color: #FFF; font-size: 14px; padding:0; padding-right:20px; cursor: default; float:right; font-weight: bold; word-spacing: -0.1em; font-variant: small-caps;}
+#main .slider .drawer-handle-span-on { color: #006400; font-size: 14px; padding:0; padding-right:20px; cursor: default; float:right; font-weight: bold; word-spacing: -0.1em; font-variant: small-caps;}
+#main .slider .drawer-handle-span-on-open { color: #6FFF4E; font-size: 14px; padding:0; padding-right:20px; cursor: default; float:right; font-weight: bold; word-spacing: -0.1em; font-variant: small-caps;}
+#main .slider .drawer-content { display: block; margin: 0; background: none; height: auto; padding: 5px 5px 5px 5px;}
+#main .slider h3.open { background-color: #72839d; background-position: -300px 0; color: #fff; }
+#main .drawercap { height: 5px; width: 300px; position: absolute; z-index: 100; bottom: 0; left: 0; background: url(slider_capbottom.png) no-repeat; behavior:url(/global/scripts/lib/iepngfix.htc); }
+
+/* TOP LISTS */
+#main .sidebar ol.toplist { margin: 0 10px 0 35px; padding-top: 10px; }
+#main .sidebar ol.toplist li { margin-bottom: 6px; }
+#main .sidebar ol.toplist li a { color: #666; }
+#main .sidebar ol.toplist li a:hover { text-decoration:underline; }
+#main .sidebar ol.toplist li.viewall { list-style-type: none; margin-bottom: 0; }
+
+/* LATEST */
+#latest { height:auto; min-height: 350px; *height: 350px; margin-bottom: 15px; position: relative; overflow: hidden; z-index: 50; }
+/*#latest h2 { background: url(http://images.apple.com/support/home/images/header_184bg.png) no-repeat; }*/
+#latest .drawers .drawer-content { min-height: 276px; *height: 276px; overflow: hidden; }
+#latest .drawercap { _display: none !important; }
+
+
+/* BROWSE SUPPORT */
+#menu { height: 350px; }
+#menu h2 { background: url(http://images.apple.com/support/home/images/header_184bg.png) no-repeat; }
+#menu hr { margin: 8px 15px 0 8px; *display: none; }
+#menu li { padding: 4px 10px; }
+#menu a:link { color: #666; }
+#menu a:visited { color: #666; }
+#menu h3 { font-size: 11px; color: #333; font-weight: bold; }
+#menu ul { padding-bottom:0; } 
+

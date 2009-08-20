@@ -1,0 +1,183 @@
+html{
+	margin:0px;
+	padding:0px;
+	height:100%;
+	width:100%;
+}
+body{
+	margin:0px;
+	padding:0px;
+	font-family:arial;
+	font-size:0.8em;	
+	height:100%;
+	width:100%;
+}
+
+p,h2{
+	margin:2px;
+}
+
+h1{
+	font-size:1.4em;
+	margin:2px;
+}
+h2{
+	font-size:1.3em;
+}
+.weekButton{
+	width:80px;
+	font-size:0.8em;
+	font-family:arial;
+}
+#weekScheduler_container{
+	border:1px solid #000;
+	width:700px;	
+}
+
+.weekScheduler_appointments_day{	/* Column for each day */
+	width:105px;
+	float:left;
+	background-color: #FFFFD5;
+	border-right:1px solid #F6DBA2;	
+	position:relative;
+}
+#weekScheduler_top{
+	background-color:buttonface;
+	height:20px;
+	border-bottom:1px solid #ACA899;
+}
+.calendarContentTime,.spacer{
+	background-color:buttonface;
+	text-align:center;
+	font-family:arial;
+	font-size:28px;
+	/* line-height:<? echo $rowHeight; ?>px; */
+	line-height:35px;
+	/* height:<? echo $rowHeight; ?>px;	 Height of hour rows */
+	height:35px;	
+
+	border-right:1px solid #ACA899;
+	width:63px;
+}
+
+.weekScheduler_appointmentHour{	/* Small squares for each hour inside the appointment div */
+	/*height:<? echo $rowHeight; ?>px;  Height of hour rows */
+	height:35px;
+	border-bottom:1px solid #F6DBA2;	
+}
+
+.spacer{
+	height:20px;
+	float:left;
+}	
+
+#weekScheduler_hours{
+	width:63px;
+	float:left;
+}
+.calendarContentTime{
+	border-bottom:1px solid #ACA899;
+
+}
+
+#weekScheduler_appointments{	/* Big div for appointments */
+	width:636px;
+	float:left;
+}
+.calendarContentTime .content_hour{
+	font-size:10px;
+	text-decoration:superscript;	
+	vertical-align:top;
+	// line-height:<? echo $rowHeight; ?>px;
+	line-height:35px;
+}
+	
+#weekScheduler_top{
+	position:relative;
+	clear:both;
+}
+#weekScheduler_content{
+	clear:both;
+	height:504px;
+	position:relative;
+	overflow:auto;
+}
+.days div{
+	width:105px;
+	float:left;
+	background-color:buttonface;
+	text-align:center;
+	font-family:arial;
+	height:20px;
+	font-size:0.9em;
+	line-height:20px;
+	border-right:1px solid #ACA899;	
+}
+
+.weekScheduler_anAppointment{	/* A new appointment */
+	position:absolute;
+	background-color:#FFF;
+	border:1px solid #000;
+	z-index:1000;
+	overflow:hidden;
+
+
+}
+
+.weekScheduler_appointment_header{	/* Appointment header row */
+	height:4px;
+	background-color:#ACA899;
+}
+.weekScheduler_appointment_headerActive{ /* Appointment header row  - when active*/
+	height:4px;
+	background-color:#00F;
+}
+
+.weekScheduler_appointment_textarea{	/* Textarea where you edit appointments */
+	font-size:0.7em;
+	font-family:arial;
+}
+
+.weekScheduler_appointment_txt{
+	font-size:0.7em;
+	font-family:arial;
+	padding:2px;
+	padding-top:5px;
+	line-height:13px;
+	overflow:hidden;
+
+}
+
+.weekScheduler_appointment_footer{
+	position:absolute;
+	bottom:-1px;
+	border-top:1px solid #000;
+	height:4px;
+	width:100%;
+	font-size:0.8em;
+	background-color:#000;
+}
+
+.weekScheduler_appointment_time{
+	position:absolute;
+	border:1px solid #000;
+	top:5px;
+	right:1px;
+	width:42px;
+	height:12px;
+	z-index:100000;
+	font-size:0.6em;
+	padding:2px;
+	background-color:#F6DBA2;
+}
+
+.weekScheduler_appointment_time span{
+	line-height:13px;
+} 
+
+.eventIndicator{
+	background-color:#00F;
+	z-index:50;
+	display:none;
+	position:absolute;
+}

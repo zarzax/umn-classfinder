@@ -1,0 +1,80 @@
+.sectionList{
+	display:none;
+}
+
+ul,li{
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.CourseListContainer li div{
+	padding:0px;
+}
+
+table.courseHeader{
+	background: url(http://ssh.zarzax.net/project/images/courselist_background.png) 0 100% no-repeat; overflow: hidden;
+}
+
+table.courseHeader span{
+	font-size:12px;
+	font-weight:bold;
+}
+
+.CourseListContainer div.drawer-content{
+	font-family: arial, verdana;
+	font-size: 12px;
+}
+
+div.drawer-content li{
+	text-indent: -17px;
+	margin: 0px;
+	padding-left: 25px;
+}
+
+div.drawer-content li input{
+	padding: 0px;
+	margin: 0px;
+}
+
+.courses h2{
+	margin:0 0 0 0;
+	//padding:0 0 0 2px;
+	padding: 0px 0px;
+	background-color: maroon;
+	color: white;
+	font-size: 14px;
+	font-variant: small-caps;
+	font-weight:bold;
+	text-indent: 15px;
+}
+
+h3{
+	font-size: 12px;
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}
+
+ul{
+	margin-top: 0;
+	overflow: auto;
+	text-align: left;
+}
+
+.courseName{	
+	cursor: pointer;
+}
+
+.CourseListContainer{
+ 	bgcolor: #00ff00;
+	width: 300px;
+	height: 505px;
+	overflow: auto;
+}
+
+.courseName div{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+}

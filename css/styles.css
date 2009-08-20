@@ -1,0 +1,74 @@
+body{
+	font-family: arial, verdana;
+	font-size: 12px;
+}
+
+a{
+	color:maroon;
+	text-decoration: none;
+	margin-top:0px;
+	line-height:20px;
+}
+
+a.courseLevel{
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+div div a{
+	text-decoration: underline;
+}
+
+.div-list {
+	-moz-user-select:	none;
+	font:		icon;
+	background:	Window;
+	border:	1px solid ThreeDShadow;
+	width: 700px;
+	height: 324px;
+	overflow:auto;
+	cursor:	default;
+}
+
+.div-list div {
+	padding:	2px 5px;
+}
+
+.div-list a {
+	display: inline;
+}
+
+div.selected {
+	background: Highlight;
+	color: HighlightText;
+}
+
+.white {
+	background: #FFFFFF;
+}
+.darkgrey{
+	background: #DDDDDD;
+}
+.grey {
+	background: #F0F0F0;
+}
+
+input.button {
+	height: 18px;
+	font-size: 10px;
+	font-family: arial;
+	outline: none;
+}
+
+input.checkbox{
+	margin: 0 4px;
+	width:13px;
+	height:13px;
+	overflow:hidden;
+}
+input.radio{
+	
+	width:17px;
+	overflow:hidden;
+}
